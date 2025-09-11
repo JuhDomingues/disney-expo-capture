@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
+import { BonusPopup } from "./BonusPopup";
 
 // Declare MauticSDK types
 declare global {
@@ -22,6 +23,7 @@ export function FormSection() {
     email: "",
     telefone: ""
   });
+  const [showBonusPopup, setShowBonusPopup] = useState(false);
   const { toast } = useToast();
 
   useEffect(() => {
@@ -94,6 +96,9 @@ export function FormSection() {
         description: "Você está participando do sorteio da passagem para Disney. Boa sorte!"
       });
 
+      // Show bonus popup
+      setShowBonusPopup(true);
+
       // Reset form
       setFormData({
         nome: "",
@@ -124,17 +129,22 @@ export function FormSection() {
   };
 
   return (
-    <section className="py-24 px-4">
-      <div className="container max-w-2xl mx-auto">
-        <Card className="shadow-divine border-primary/20">
-          <CardHeader className="text-center space-y-4">
-            <CardTitle className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Participe do Sorteio
-            </CardTitle>
-            <CardDescription className="text-lg">
-              Preencha seus dados para concorrer à passagem para Orlando!
-            </CardDescription>
-          </CardHeader>
+    <>
+      <BonusPopup 
+        open={showBonusPopup} 
+        onOpenChange={setShowBonusPopup} 
+      />
+      <section className="py-24 px-4">
+        <div className="container max-w-2xl mx-auto">
+          <Card className="shadow-divine border-primary/20">
+            <CardHeader className="text-center space-y-4">
+              <CardTitle className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+                Participe do Sorteio
+              </CardTitle>
+              <CardDescription className="text-lg">
+                Preencha seus dados para concorrer à passagem para Orlando!
+              </CardDescription>
+            </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-2">
@@ -240,5 +250,6 @@ export function FormSection() {
         </Card>
       </div>
     </section>
+    </>
   );
 }

@@ -1,4 +1,4 @@
-import vivaAmericaLogo from "@/assets/Asset 1 - White.png";
+import vivaAmericaLogo from "@/assets/logo-vivaamerica.png";
 
 export function Footer() {
   return (

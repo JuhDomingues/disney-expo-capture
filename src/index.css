@@ -17,9 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 27% 14%;
 
-    --primary: 16 90% 54%;
+    --primary: 0 85% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 16 90% 64%;
+    --primary-glow: 0 85% 55%;
 
     --secondary: 45 100% 85%;
     --secondary-foreground: 45 100% 25%;
@@ -38,12 +38,12 @@ All colors MUST be HSL.
 
     --border: 210 40% 90%;
     --input: 210 40% 90%;
-    --ring: 16 90% 54%;
+    --ring: 0 85% 45%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(16 90% 54%), hsl(16 90% 64%));
+    --gradient-primary: linear-gradient(135deg, hsl(0 85% 45%), hsl(0 85% 55%));
     --gradient-golden: linear-gradient(135deg, hsl(45 100% 50%), hsl(45 100% 70%));
     --gradient-hero: linear-gradient(135deg, hsl(210 100% 45%) 0%, hsl(210 100% 65%) 50%, hsl(45 100% 60%) 100%);
-    --shadow-divine: 0 20px 40px -10px hsl(16 90% 54% / 0.3);
+    --shadow-divine: 0 20px 40px -10px hsl(0 85% 45% / 0.3);
     --shadow-golden: 0 10px 30px -5px hsl(45 100% 50% / 0.4);
 
     --radius: 0.5rem;
@@ -75,9 +75,9 @@ All colors MUST be HSL.
     --popover: 215 25% 10%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 16 90% 54%;
+    --primary: 0 85% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 16 90% 64%;
+    --primary-glow: 0 85% 55%;
 
     --secondary: 45 100% 20%;
     --secondary-foreground: 45 100% 90%;
@@ -96,12 +96,12 @@ All colors MUST be HSL.
 
     --border: 215 25% 20%;
     --input: 215 25% 20%;
-    --ring: 16 90% 54%;
+    --ring: 0 85% 45%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(16 90% 54%), hsl(16 90% 64%));
+    --gradient-primary: linear-gradient(135deg, hsl(0 85% 45%), hsl(0 85% 55%));
     --gradient-golden: linear-gradient(135deg, hsl(45 100% 55%), hsl(45 100% 70%));
     --gradient-hero: linear-gradient(135deg, hsl(210 100% 60%) 0%, hsl(210 100% 75%) 50%, hsl(45 100% 65%) 100%);
-    --shadow-divine: 0 20px 40px -10px hsl(16 90% 54% / 0.4);
+    --shadow-divine: 0 20px 40px -10px hsl(0 85% 45% / 0.4);
     --shadow-golden: 0 10px 30px -5px hsl(45 100% 55% / 0.5);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
