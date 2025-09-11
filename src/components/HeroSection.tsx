@@ -18,7 +18,7 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg">
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-10 mt-16 drop-shadow-lg">
           Sonhe com a
           <span className="bg-gradient-golden bg-clip-text text-transparent block">
             Disney
@@ -26,7 +26,7 @@ export function HeroSection() {
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Participe do sorteio da Expo Cristã e concorra a uma passagem para Orlando!
+          Participe do sorteio da Viva Academy + ExpoCristã e concorra a uma passagem para Orlando!
         </p>
 
         <div className="space-y-4 mb-12">
@@ -49,6 +49,24 @@ export function HeroSection() {
               16 de Setembro de 2025 • Anhembi - São Paulo
             </p>
           </div>
+
+          <div className="bg-gradient-golden/20 backdrop-blur-sm rounded-lg p-6 border border-yellow-400/30">
+            <h3 className="text-xl md:text-2xl font-semibold text-white mb-3">
+              🌟 Bônus Especial
+            </h3>
+            <p className="text-white/90 text-lg mb-4 leading-relaxed">
+              O ganhador que tiver comprado o acesso ao VivaAcademy, terá direito a levar um acompanhante + Acesso a 2 parques! 
+              Clique no link abaixo e conheça nossa plataforma completa para quem quer imigrar para os EUA.
+            </p>
+            <Button 
+              onClick={() => window.open('https://academy.vivaamerica.com', '_blank')}
+              variant="outline"
+              size="lg"
+              className="bg-white/10 border-white/30 text-white hover:bg-white/20 mb-4"
+            >
+              Conhecer VivaAcademy
+            </Button>
+          </div>
         </div>
 
         <Button 
@@ -60,7 +78,7 @@ export function HeroSection() {
           Participar Agora
         </Button>
 
-        <p className="text-white/80 text-sm mt-6">
+        <p className="text-white/80 text-sm mt-12 mb-16">
           Gratuito • Inscrições até 16/09/2025
         </p>
       </div>

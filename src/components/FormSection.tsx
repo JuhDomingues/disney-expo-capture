@@ -204,9 +204,37 @@ export function FormSection() {
                 Quero participar do Sorteio!
               </Button>
 
-              <p className="text-sm text-muted-foreground text-center">
-                Ao se inscrever, você concorda com o regulamento do sorteio e autoriza o uso dos seus dados conforme a LGPD.
-              </p>
+              <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-lg p-4 border-l-4 border-primary">
+                <div className="text-center space-y-3">
+                  <p className="font-semibold text-primary flex items-center justify-center gap-2">
+                    <span className="text-xl">📱</span>
+                    <span>Siga nossas páginas para participar!</span>
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
+                    <a 
+                      href="https://www.instagram.com/vivaa.cademy/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 bg-white border border-primary/20 rounded-full px-4 py-2 text-primary hover:bg-primary/5 transition-colors font-medium shadow-sm"
+                    >
+                      <span className="text-lg">📷</span>
+                      @vivaa.cademy
+                    </a>
+                    <a 
+                      href="https://www.instagram.com/vivaamericaa/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 bg-white border border-primary/20 rounded-full px-4 py-2 text-primary hover:bg-primary/5 transition-colors font-medium shadow-sm"
+                    >
+                      <span className="text-lg">📷</span>
+                      @vivaamericaa
+                    </a>
+                  </div>
+                  <p className="text-xs text-muted-foreground mt-4 italic">
+                    Ao se inscrever, você concorda com o regulamento do sorteio e autoriza o uso dos seus dados conforme a LGPD.
+                  </p>
+                </div>
+              </div>
             </form>
           </CardContent>
         </Card>
