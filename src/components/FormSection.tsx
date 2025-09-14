@@ -90,6 +90,11 @@ export function FormSection() {
         mode: 'no-cors'
       });
 
+      // Track Facebook Pixel SubmitApplication event
+      if (typeof window !== 'undefined' && (window as any).fbq) {
+        (window as any).fbq('track', 'SubmitApplication');
+      }
+
       // Success toast
       toast({
         title: "Inscrição realizada com sucesso!",
