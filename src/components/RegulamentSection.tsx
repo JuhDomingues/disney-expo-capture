@@ -11,7 +11,7 @@ export function RegulamentSection() {
               Regulamento Oficial
             </CardTitle>
             <p className="text-muted-foreground text-lg">
-              Sorteio Expo Cristã 2025
+              Regulamento do Sorteio
             </p>
           </CardHeader>
           <CardContent>
@@ -41,8 +41,8 @@ export function RegulamentSection() {
                   3. PERÍODO DA PROMOÇÃO
                 </AccordionTrigger>
                 <AccordionContent className="space-y-2">
-                  <p>3.1 As inscrições estarão abertas entre 11/09/2025 e 16/09/2025, exclusivamente no stand da Viva America, localizado no evento Expo Cristã, no Anhembi, São Paulo/SP.</p>
-                  <p>3.2 O sorteio será realizado no dia 16/09/2025, no palco principal da Expo Cristã, a partir das [horário a confirmar].</p>
+                  <p>3.1 As inscrições estarão abertas entre 11/09/2025 e 09/10/2025, através do formulário disponível nesta página.</p>
+                  <p>3.2 O sorteio será realizado no dia 09/10/2025, às 20:00h (horário de Brasília), através do Instagram @vivaa_cademy.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -51,7 +51,7 @@ export function RegulamentSection() {
                   4. ÁREA DE ABRANGÊNCIA
                 </AccordionTrigger>
                 <AccordionContent>
-                  <p>4.1 Podem participar pessoas físicas, maiores de 18 anos, residentes no Brasil, presentes no evento Expo Cristã.</p>
+                  <p>4.1 Podem participar pessoas físicas, maiores de 18 anos, residentes no Brasil.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -111,8 +111,8 @@ export function RegulamentSection() {
                   8. APURAÇÃO E DIVULGAÇÃO
                 </AccordionTrigger>
                 <AccordionContent className="space-y-2">
-                  <p>8.1 O sorteio ocorrerá de forma pública, presencial e transparente, no palco principal da Expo Cristã, no dia 16/09/2025.</p>
-                  <p>8.2 O nome do ganhador será anunciado no evento e divulgado nos canais oficiais da Viva America.</p>
+                  <p>8.1 O sorteio ocorrerá de forma pública e transparente, através do Instagram @vivaa_cademy, no dia 09/10/2025, às 20:00h (horário de Brasília).</p>
+                  <p>8.2 O nome do ganhador será anunciado ao vivo no Instagram e divulgado nos canais oficiais da Viva America.</p>
                   <p>8.3 O vencedor deverá entrar em contato com a Viva America por meio do e-mail academy@vivaamerica.com para validar seu direito ao prêmio.</p>
                   <p>8.4 O vencedor precisará disponibilizar informações adicionais (como cópia de documento de identidade, CPF e dados necessários para emissão da passagem) para a efetivação da entrega.</p>
                 </AccordionContent>

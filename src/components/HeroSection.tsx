@@ -26,7 +26,7 @@ export function HeroSection() {
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Participe do sorteio da Viva América + ExpoCristã e concorra a uma passagem para Orlando!
+          Participe do sorteio da Viva América e concorra a uma passagem para Orlando!
         </p>
 
         <div className="space-y-4 mb-12">
@@ -43,10 +43,10 @@ export function HeroSection() {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
             <p className="text-white font-semibold text-lg">
-              📅 Sorteio no último dia da Expo Cristã
+              📅 Sorteio ao vivo no Instagram
             </p>
             <p className="text-white/90">
-              16 de Setembro de 2025 • Anhembi - São Paulo
+              09 de Outubro de 2025 • 20:00h • @vivaa_cademy
             </p>
           </div>
 
@@ -62,7 +62,7 @@ export function HeroSection() {
         </Button>
 
         <p className="text-white/80 text-sm mt-12 mb-16">
-          Gratuito • Inscrições até 16/09/2025
+          Gratuito • Inscrições até 09/10/2025
         </p>
       </div>
 

@@ -9,8 +9,8 @@ export function CountdownTimer() {
   });
 
   useEffect(() => {
-    // Data do sorteio: 16/09/2025 às 17:00 (horário de Brasília)
-    const targetDate = new Date('2025-09-16T17:00:00-03:00');
+    // Data do sorteio: 09/10/2025 às 20:00 (horário de Brasília)
+    const targetDate = new Date('2025-10-09T20:00:00-03:00');
 
     const timer = setInterval(() => {
       const now = new Date();
@@ -69,7 +69,7 @@ export function CountdownTimer() {
           {/* Data */}
           <div className="text-center md:text-left">
             <p className="text-xs opacity-90">
-              📅 16 de Setembro de 2025 • 17:00h (Horário de Brasília)
+              📅 09 de Outubro de 2025 • 20:00h (Horário de Brasília) • Instagram @vivaa_cademy
             </p>
           </div>
         </div>
